@@ -109,10 +109,13 @@ const GoogleMapAutomation = () => {
                 </div>
                 <div className="bg-zinc-900 aspect-square rounded-[3rem] border border-white/5 flex items-center justify-center p-12">
                    <div className="w-full h-full border-2 border-dashed border-[#F5C542]/20 rounded-[2rem] flex items-center justify-center text-center">
-                      <div className="space-y-4">
-                        <MapPin className="w-16 h-16 text-[#F5C542] mx-auto opacity-50" />
-                        <p className="text-[10px] uppercase tracking-widest text-[#A0A0A0] font-bold">Workflow Image Placeholder</p>
-                      </div>
+                  <div className="w-full h-full rounded-[2rem] overflow-hidden border border-white/5 shadow-2xl">
+                    <img 
+                      src="https://res.cloudinary.com/dtxb2d9mq/image/upload/v1778576848/Screenshot_2026-05-12_160706_plswaa.png" 
+                      alt="Mô tả hình ảnh workflow" 
+                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                    />
+                  </div>
                    </div>
                 </div>
               </div>
