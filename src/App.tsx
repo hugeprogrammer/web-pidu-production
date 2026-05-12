@@ -212,7 +212,7 @@ const ScrollToTop = () => {
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/Web-pidu-production/"> {/* <-- Mình đã thêm basename vào dòng này */}
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />

@@ -42,6 +42,14 @@ const ContentAutomation = () => {
               <p className="text-sm md:text-lg text-[#A0A0A0] max-w-2xl mx-auto mb-12 font-medium leading-relaxed">
                 Tự động tạo nội dung, tạo hình ảnh và đăng bài theo lịch – không cần làm tay. Giải pháp tối ưu cho doanh nghiệp muốn phủ sóng mạng xã hội mà không mất thời gian.
               </p>
+              <a 
+                href="https://drive.google.com/uc?export=download&id=1S2s4809PgvdLWvm_bMEK9tkHmF1bNL6P"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block text-center bg-[#F5C542] text-black px-12 py-5 rounded-full font-black uppercase text-xs tracking-[0.25em] shadow-[0_0_30px_rgba(245,197,66,0.3)] hover:shadow-[0_0_45px_rgba(245,197,66,0.5)] transition-all transform hover:-translate-y-1 active:scale-95 cursor-pointer"
+              >
+                XEM DEMO NGAY
+              </a>
             </motion.div>
           </div>
         </section>
